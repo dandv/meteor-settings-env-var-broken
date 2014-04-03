@@ -1,0 +1,6 @@
+{
+  "public": {
+    "foo": "bar"
+  },
+  "private": "secret"
+}

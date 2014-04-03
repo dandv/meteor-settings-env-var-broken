@@ -1,0 +1,8 @@
+<body>
+  <p>Meteor reads METEOR_SETTINGS when run via `meteor run`, but doesn't store them in Meteor.settings, neither on the server or the client</p>
+  {{> settings}}
+</body>
+
+<template name="settings">
+  Meteor.settings.public.foo: {{metSettings.foo}}
+</template>
